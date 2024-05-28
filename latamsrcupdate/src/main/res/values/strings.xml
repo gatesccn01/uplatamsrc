@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Update JSON</string>
+	<string name="attention">Attention</string>
+	<!--|| By LATAMSRC||-->
+	<string name="admobIDads">ca-app-pub-3940256099942544~3347511713</string>
+	<string name="admobBannerads">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="admobinterst">ca-app-pub-3940256099942544/1033173712</string>
+	<string name="admobreward">ca-app-pub-3940256099942544/5224354917</string>
+	<string name="admobOpen">ca-app-pub-3940256099942544/5224354917</string>
+	<string name="app_intro_skip" translatable="false">Skip</string>
+	<string name="cancel">Cancel</string>
+	<string name="ok">Ok</string>
+	<string name="exit">Exit</string>
+	<string name ="alert_exit">Are you sure you want to exit?</string>
+
+	<string name="error_empty_name_file">El nombre del archivo no debe estar vacío.</string>
+	<string name="minimize">Minimize</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="save">Save</string>
+	<string name="open">Open</string>
+	<string name="more">More</string>
+	<string name="wait">Wait</string>
+	<string name="close">Close</string>
+	<string name="open_with">Open with</string>
+	<string name="clear_settings">Clear Settings/Data</string>
+	<string name="settings_export">Configuración de exportación</string>
+	<string name="welcome">Welcome to</string>
+	<string name="sign_up">Sign up</string>
+	<string name="sign_in">Sign in</string>
+	<string name="TandC">I accept the terms and conditions of LatamSRC</string>
+	<string name="error_view">Error view</string>
+	<string name="password">Password</string>
+	<string name="email_hint">user@mail.com</string>
+	<string name="email">Email</string>
+	<string name="forgot_password">Forgot your password</string>
+	<string name="email_verify_again">Send email verification again</string>
+	<string name="enterEmailId">Enter registered email ID</string>
+	<string name="reset_password">Reset password</string>
+	<string name="user_domain_com">user@mail.com</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryBackground"
+    android:orientation="vertical">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFFF0000"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="APLICACION MODIFICADA"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFFF0000"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacta Al Desarrollador"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/monsour_stats"
+                android:textColor="#0048FF"
+                android:textStyle="bold" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:onClick="whatsapphome"
+            android:background="@drawable/camaronmandarin"
+            android:layout_centerInParent="true">
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Echo Por LatamSRC"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="Se A Detectado Un Cambio En La Firma Esta Aplicacion No Es Autentica"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textView"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+

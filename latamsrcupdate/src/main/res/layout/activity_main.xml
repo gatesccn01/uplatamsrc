@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/divider_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="364dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/blue_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar App 1"
+            android:textColor="@color/blue_light" />
+
+        <EditText
+            android:id="@+id/editTextFileName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre De Paquete"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subir App1"
+            android:textColor="@color/colorSecondaryBackground" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/blue_light" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/blue_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar App 2 "
+
+            android:textColor="@color/blue_light" />
+
+        <EditText
+            android:id="@+id/editTextFileName2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre De Paquete"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonUpload2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subir App2"
+            android:textColor="@color/colorSecondaryBackground" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/blue_light" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar App 3 "
+
+            android:textColor="@color/blue_light" />
+
+        <EditText
+            android:id="@+id/editTextFileName3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre De Paquete"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonUpload3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subir App3"
+            android:textColor="@color/colorSecondaryBackground" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/blue_light" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSecondaryBackground" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar Archivo"
+            android:textColor="@color/colorSecondaryBackground"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/userlatamsrc"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grupo De Usuario"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/userlatamsrccopy"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grupo De Usuario"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingBottom="2.0dip"
+                android:text="@string/app_name"
+                android:textColor="#00BCD4"
+                android:textSize="25.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2.0dip"
+                android:text=" By LatamSRC"
+                android:textColor="#FF5722"
+                android:textSize="25.0sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=" "
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/buttonPickFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/folder_icon"
+                android:text="Buscar Archivo \nQue Deseas Subir"
+                android:textColor="@color/colorPrimaryBackground" />
+
+
+            <ImageView
+                android:id="@+id/activity_starterButtonMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/folder_icon"
+                android:onClick="latamsrc"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/flechalatamsrc"
+                android:onClick="latamsrc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Haga clic aquí y seleccione un archivo"
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:background="#00000000"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/admin"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admin Test"
+                        android:onClick="admin"
+                        android:textColor="@color/colorSecondaryBackground" />
+
+                    <Button
+                        android:visibility="gone"
+                        android:id="@+id/guardarButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Guardar Nombres"
+                        android:onClick="admin"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorSecondaryBackground" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

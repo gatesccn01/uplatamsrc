@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="gray_light">#FF000D57</color>
+	<color name="blue">#FF000D57</color>
+	<color name="blue_light">#FF000D57</color>
+	<color name="gray">#FF000D57</color>
+	<color name="black_light">#333333</color>
+	<color name="white">#ffffff</color>
+	<color name="red">#FD1C0D</color>
+	<color name="yellow">#EEFD00</color>
+	<color name="green">#04D000</color>
+	<color name="black">#000000</color>
+	<color name="colorPrimary">@color/blue_light</color>
+	<color name="colorPrimaryDark">@color/blue</color>
+	<color name="colorSecondary">@color/blue</color>
+	<color name="colorAccent">@color/gray</color>
+	
+	<color name="textColorPrimary">#000000</color>
+	<color name="textColorSecondary">#000000</color>
+	<color name="colorTextEnabled">#333333</color>
+	<color name="colorTextDisabled">#DEDEDE</color>
+	
+	<color name="colorText">@color/text_color</color>
+	<color name="colorPrimaryBackground">#EAEAEA</color>
+	<color name="colorSecondaryBackground">#ffffff</color>
+	<color name="shadow">#cc222222</color>
+	<color name="transparent">#00000000</color>
+</resources>

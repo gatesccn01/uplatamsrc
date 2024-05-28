@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_width="match_parent">
+
+            <!--<include layout="@layout/toolbarmandarin" />-->
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                app:tabIndicatorColor="#4FB5AB"
+                app:tabGravity="fill"
+                app:tabTextColor="@color/colorPrimary"
+                app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+                app:tabSelectedTextColor="#4FB5AB"
+                android:id="@+id/tablayout" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/viewpager">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/tab1">
+
+                <include layout="@layout/activity_main" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/tab2">
+
+                <include layout="@layout/gaga" />
+
+            </LinearLayout>
+
+        </androidx.viewpager.widget.ViewPager>
+
+    </LinearLayout>
+
+<!--    <com.google.android.material.navigation.NavigationView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="180dp"-->
+<!--        app:headerLayout="@layout/nav_header"-->
+<!--        android:background="@color/blancohz"-->
+<!--        app:itemTextColor="@color/negrohz"-->
+<!--        app:itemIconTint="#00BCD4"-->
+<!--        app:menu="@menu/navigation_menu"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:id="@+id/navigation">-->
+
+
+<!--    </com.google.android.material.navigation.NavigationView>-->
+<!--    -->
+
+</LinearLayout>
+
+
